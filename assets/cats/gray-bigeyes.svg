@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Gray big eyed cat illustration">
+  <rect width="220" height="220" rx="44" fill="#eee5f5"/>
+  <ellipse cx="110" cy="151" rx="53" ry="47" fill="#6f6c66"/>
+  <path d="M69 84 50 44l39 23zM151 67l38-22-18 40z" fill="#77746d"/>
+  <path d="M72 80 61 58l23 12zM149 70l25-13-11 23z" fill="#d8c0bd"/>
+  <ellipse cx="110" cy="111" rx="62" ry="57" fill="#807d76"/>
+  <path d="M84 129c13 24 40 24 53 0-5 20-14 31-27 31s-22-11-26-31z" fill="#c9c1b8"/>
+  <path d="M88 62c10 10 15 20 16 32M111 58c2 11 2 22-1 34M132 64c-9 10-14 20-15 31" fill="none" stroke="#5d5a55" stroke-width="4" stroke-linecap="round" opacity=".65"/>
+  <ellipse cx="84" cy="107" rx="18" ry="22" fill="#d2a84e"/>
+  <ellipse cx="136" cy="107" rx="18" ry="22" fill="#d2a84e"/>
+  <ellipse cx="84" cy="107" rx="12" ry="16" fill="#191b1b"/>
+  <ellipse cx="136" cy="107" rx="12" ry="16" fill="#191b1b"/>
+  <circle cx="91" cy="98" r="5" fill="#fff"/>
+  <circle cx="143" cy="98" r="5" fill="#fff"/>
+  <path d="M103 130c5-5 10-5 15 0-2 7-5 10-8 10s-6-3-7-10z" fill="#343030"/>
+  <path d="M110 140c-5 8-12 10-21 5M112 140c5 8 12 10 21 5" fill="none" stroke="#4d4846" stroke-width="3" stroke-linecap="round"/>
+  <path d="M78 138c-16 0-29 3-41 9M79 148c-15 3-27 9-37 17M142 138c16 0 29 3 41 9M141 148c15 3 27 9 37 17" fill="none" stroke="#f8f0e7" stroke-width="3" stroke-linecap="round"/>
+  <path d="M55 109c13-4 26-4 38 0M57 124c12-2 24-1 35 3M165 109c-13-4-26-4-38 0M163 124c-12-2-24-1-35 3" fill="none" stroke="#5b5651" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+  <ellipse cx="72" cy="129" rx="10" ry="7" fill="#d9a8a9" opacity=".38"/>
+  <ellipse cx="148" cy="129" rx="10" ry="7" fill="#d9a8a9" opacity=".38"/>
+</svg>

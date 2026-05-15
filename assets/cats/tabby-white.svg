@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Tabby white cat illustration">
+  <rect width="220" height="220" rx="44" fill="#f6dfc7"/>
+  <ellipse cx="110" cy="142" rx="61" ry="48" fill="#f8f0de"/>
+  <path d="M55 151c2-33 18-59 45-67 29-8 58 6 70 33 12 28 4 55-20 69-25 14-75 12-93-10-6-8-4-16-2-25z" fill="#78664e"/>
+  <path d="M72 84 48 38l48 25zM148 63l45-27-22 51z" fill="#78664e"/>
+  <path d="M72 84 58 51l32 17zM151 67l29-18-15 32z" fill="#ead0b7"/>
+  <ellipse cx="109" cy="111" rx="65" ry="56" fill="#8a785d"/>
+  <path d="M66 117c8 51 81 54 91 0-10-12-21-19-32-21l-15 23-15-23c-12 2-22 9-29 21z" fill="#fff6e9"/>
+  <path d="M84 65c12 9 17 22 17 38M108 56c3 14 3 28 0 42M132 63c-12 11-17 24-17 39" fill="none" stroke="#473d30" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+  <path d="M53 107c12-4 24-5 36-3M54 125c13-3 25-2 36 2M166 105c-12-3-24-2-35 1M164 124c-12-2-23-1-33 3" fill="none" stroke="#5f4e3d" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+  <ellipse cx="86" cy="107" rx="13" ry="16" fill="#27302a"/>
+  <ellipse cx="134" cy="107" rx="13" ry="16" fill="#29322c"/>
+  <circle cx="91" cy="101" r="4" fill="#fff"/>
+  <circle cx="139" cy="101" r="4" fill="#fff"/>
+  <path d="M104 129c4-4 9-5 14 0-2 6-5 9-7 9s-6-3-7-9z" fill="#6c3e32"/>
+  <path d="M110 138c-4 7-10 9-18 5M112 138c4 7 11 9 19 5" fill="none" stroke="#6d5a4a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M83 139c-17-2-31 0-43 5M85 148c-16 1-29 5-40 13M137 139c17-2 31 0 43 5M135 148c16 1 29 5 40 13" fill="none" stroke="#fffaf2" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="75" cy="130" rx="12" ry="7" fill="#e7b8a7" opacity=".45"/>
+  <ellipse cx="145" cy="130" rx="12" ry="7" fill="#e7b8a7" opacity=".45"/>
+</svg>

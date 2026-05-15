@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Closer",
+  "description": "Quickly find, select, and close crowded Chrome tabs.",
+  "version": "1.0.0",
+  "permissions": ["tabs"],
+  "host_permissions": ["https://www.google.com/s2/favicons*"],
+  "action": {
+    "default_title": "Tab Closer",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icons/icon16.svg",
+    "32": "icons/icon32.svg",
+    "48": "icons/icon48.svg",
+    "128": "icons/icon128.svg"
+  }
+}

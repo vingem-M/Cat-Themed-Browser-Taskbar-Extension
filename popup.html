@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tab Closer</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div id="decorLayer" class="decor-layer" aria-hidden="true"></div>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <h1>标签清理</h1>
+          <p id="summary">正在读取标签页...</p>
+        </div>
+        <button id="refreshBtn" class="icon-button" type="button" title="刷新">
+          <span aria-hidden="true">↻</span>
+        </button>
+      </header>
+
+      <section class="controls" aria-label="筛选">
+        <div id="controlDecor" class="control-decor" aria-hidden="true"></div>
+        <label class="search">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="搜索标题或网址" autocomplete="off" />
+        </label>
+        <div class="expand-controls" aria-label="展开折叠">
+          <button id="expandAllBtn" type="button">全部展开</button>
+          <button id="collapseAllBtn" type="button">全部折叠</button>
+        </div>
+      </section>
+
+      <section id="tabsList" class="tabs-list" aria-live="polite"></section>
+
+      <footer class="footer">
+        <div>
+          <strong id="selectedCount">已选 0 个</strong>
+          <span id="protectedCount"></span>
+        </div>
+        <button id="closeBtn" class="danger" type="button" disabled>关闭选中</button>
+      </footer>
+    </main>
+
+    <template id="groupTemplate">
+      <section class="group">
+        <div class="group-header">
+          <button class="collapse-button" type="button" title="展开或收起">
+            <span class="chevron" aria-hidden="true">⌄</span>
+          </button>
+          <span class="cat-card" aria-hidden="true">
+            <img class="cat-art" alt="" />
+          </span>
+          <span class="group-copy">
+            <span class="site-line">
+              <img class="site-logo" alt="" />
+              <span class="group-title"></span>
+            </span>
+            <span class="group-meta"></span>
+          </span>
+          <button class="close-group-button" type="button">关闭</button>
+        </div>
+        <div class="group-tabs"></div>
+      </section>
+    </template>
+
+    <template id="tabTemplate">
+      <div class="tab-row">
+        <input class="tab-check" type="checkbox" />
+        <img class="favicon" alt="" />
+        <span class="tab-copy">
+          <span class="tab-title"></span>
+          <span class="tab-url"></span>
+        </span>
+        <span class="badges"></span>
+        <button class="open-tab-button" type="button">进入</button>
+      </div>
+    </template>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

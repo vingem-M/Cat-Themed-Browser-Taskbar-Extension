@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Golden round cat illustration">
+  <rect width="220" height="220" rx="44" fill="#dcefe8"/>
+  <ellipse cx="111" cy="145" rx="57" ry="48" fill="#bf8b67"/>
+  <path d="M70 84 51 43l40 23zM150 65l40-23-20 43z" fill="#b98563"/>
+  <path d="M72 80 60 55l25 14zM150 69l26-14-13 25z" fill="#f2c4b0"/>
+  <ellipse cx="110" cy="109" rx="62" ry="58" fill="#c99a74"/>
+  <path d="M72 128c16 24 62 28 78 0-5 32-18 49-40 49s-35-17-38-49z" fill="#f4e6d6"/>
+  <path d="M76 69c14 8 25 13 32 34M105 57c4 16 4 30 0 43M137 69c-14 8-25 13-32 34" fill="none" stroke="#8e6448" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+  <path d="M78 137c-14 1-27 5-39 12M79 146c-13 4-24 10-34 19M142 137c14 1 27 5 39 12M141 146c13 4 24 10 34 19" fill="none" stroke="#fff7ea" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="84" cy="104" rx="15" ry="18" fill="#5f5635"/>
+  <ellipse cx="136" cy="104" rx="15" ry="18" fill="#5f5635"/>
+  <ellipse cx="84" cy="104" rx="9" ry="12" fill="#1f211d"/>
+  <ellipse cx="136" cy="104" rx="9" ry="12" fill="#1f211d"/>
+  <circle cx="90" cy="97" r="4" fill="#fff"/>
+  <circle cx="142" cy="97" r="4" fill="#fff"/>
+  <path d="M104 127c5-5 10-5 15 0-2 6-5 9-8 9s-6-3-7-9z" fill="#9a5a52"/>
+  <path d="M110 137c-5 7-12 8-20 4M112 137c5 7 12 8 20 4" fill="none" stroke="#76534b" stroke-width="3" stroke-linecap="round"/>
+  <path d="M58 109c12-4 24-4 34-1M61 122c11-2 21-1 30 3M162 109c-12-4-24-4-34-1M159 122c-11-2-21-1-30 3" fill="none" stroke="#9b704e" stroke-width="4" stroke-linecap="round" opacity=".45"/>
+  <ellipse cx="73" cy="126" rx="12" ry="8" fill="#eab5a2" opacity=".55"/>
+  <ellipse cx="147" cy="126" rx="12" ry="8" fill="#eab5a2" opacity=".55"/>
+</svg>
