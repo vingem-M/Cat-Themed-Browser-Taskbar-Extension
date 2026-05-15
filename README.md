@@ -7,6 +7,7 @@ A cute pixel-style Chrome extension for organizing and closing crowded browser t
 - Group tabs by website domain
 - Expand and collapse website groups
 - Close selected tabs or a whole group
+- Opens as a Chrome side-panel drawer from the toolbar icon
 - Jump directly to a tab with the enter button
 - Pixel cat artwork, decorations, animations, and sound effects
 - Protects active, pinned, and audible tabs from accidental closing
@@ -21,7 +22,8 @@ A cute pixel-style Chrome extension for organizing and closing crowded browser t
 ## Files
 
 - `manifest.json` - Chrome extension manifest
-- `popup.html` - extension popup UI
+- `background.js` - enables toolbar clicks to open the side-panel drawer
+- `popup.html` - side-panel drawer UI
 - `popup.css` - pixel-style UI styling
 - `popup.js` - tab management logic
 - `assets/` - pixel cat artwork and decorative sprites
