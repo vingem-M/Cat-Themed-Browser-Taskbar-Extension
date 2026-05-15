@@ -23,13 +23,14 @@
 body {
   position: relative;
   overflow: hidden;
-  width: 430px;
-  height: 600px;
+  width: 100vw;
+  min-width: 320px;
+  height: 100vh;
   margin: 0;
   background:
     radial-gradient(circle at 28px 34px, #ffcf4d 0 3px, transparent 4px),
-    radial-gradient(circle at 390px 94px, #6fcf68 0 4px, transparent 5px),
-    radial-gradient(circle at 70px 520px, #ff8caf 0 3px, transparent 4px),
+    radial-gradient(circle at calc(100% - 40px) 94px, #6fcf68 0 4px, transparent 5px),
+    radial-gradient(circle at 70px calc(100% - 80px), #ff8caf 0 3px, transparent 4px),
     linear-gradient(90deg, rgba(44, 39, 48, 0.035) 1px, transparent 1px),
     linear-gradient(rgba(44, 39, 48, 0.035) 1px, transparent 1px),
     linear-gradient(180deg, #ffe9b8 0%, #dff3a6 100%);

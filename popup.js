@@ -534,6 +534,29 @@ function playOpenSound() {
   setTimeout(() => context.close(), 360);
 }
 
+let refreshTimer = 0;
+
+function scheduleLoadTabs() {
+  window.clearTimeout(refreshTimer);
+  refreshTimer = window.setTimeout(loadTabs, 80);
+}
+
+function bindChromeTabEvents() {
+  if (!globalThis.chrome?.tabs) return;
+
+  chrome.tabs.onCreated.addListener(scheduleLoadTabs);
+  chrome.tabs.onRemoved.addListener(scheduleLoadTabs);
+  chrome.tabs.onActivated.addListener(scheduleLoadTabs);
+  chrome.tabs.onMoved.addListener(scheduleLoadTabs);
+  chrome.tabs.onAttached.addListener(scheduleLoadTabs);
+  chrome.tabs.onDetached.addListener(scheduleLoadTabs);
+  chrome.tabs.onReplaced?.addListener(scheduleLoadTabs);
+  chrome.tabs.onUpdated.addListener((_tabId, changeInfo) => {
+    const shouldRefresh = ["audible", "favIconUrl", "pinned", "status", "title", "url"].some((key) => key in changeInfo);
+    if (shouldRefresh) scheduleLoadTabs();
+  });
+}
+
 els.searchInput.addEventListener("input", render);
 
 els.refreshBtn.addEventListener("click", loadTabs);
@@ -541,4 +564,5 @@ els.expandAllBtn.addEventListener("click", expandAllGroups);
 els.collapseAllBtn.addEventListener("click", collapseAllGroups);
 els.closeBtn.addEventListener("click", closeSelected);
 
+bindChromeTabEvents();
 loadTabs();
